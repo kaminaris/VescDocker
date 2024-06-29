@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
 
 # Install other dependencies
 RUN apt-get update && \
-    apt-get install -y wget make bzip2 python3 git build-essential && \
+    apt-get install -y wget make bzip2 python3 python-is-python3 git build-essential && \
     apt-get clean
 
 # Install other dependencies
